@@ -42,6 +42,8 @@
             <!-- /.navbar-header -->
         </nav>
 
+        <a href="plot.html">plot</a>
+
  	<div id="wrapper">
         <div id="page-wrapper">
             <div class="row">
@@ -156,6 +158,52 @@ nv.addGraph(function() {
   chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
 
   return chart;
+});
+
+d3.csv("data/COUNTER.csv", function(error, data) { 
+var data = [
+    {
+    key: "Ballot Detected",
+    values: []
+    }
+];
+
+data.forEach(function (d) {
+    //d.value = +d.value
+    d.date = +d.date;
+    d.val = +d.val;
+})
+
+ nv.addGraph(function() {
+    var chart = nv.models.lineChart()
+                  .x(function(d) { return d[0]})
+                  .y(function(d) { return d[1] }) //adjusting, 100% is 1.00, not 100 as it is in the data
+                  //.color(d3.scale.category10().range())
+                  
+                  //.duration(1200)
+                  //.width(width)
+                  .useInteractiveGuideline(true);
+             
+
+     chart.xAxis
+        .margin({bottom: 50})
+        .tickValues([1428417291,1428417331])
+        .tickFormat(function(d) {
+            return d3.time.format('%c')(new Date(d))
+          });
+
+    chart.yAxis
+        .tickFormat(d3.format('.1'));
+
+    d3.select('#chart2')
+        .datum(data)
+        //.transition().duration(1200)
+        .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
 });
 
 </script>
