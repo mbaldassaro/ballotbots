@@ -88,123 +88,101 @@
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script> 
 <script>
  
-   var data = [
-    {
-        "key": "Very Important",
-        "color": "#005288", //blue
-        "values": [
-            {   "label": "New Voter Registration System", "value": 58.9 },
-            {   "label": "IEC Reform", "value": 70.2 },
-            {   "label": "New Electoral System", "value": 66.8 }
-        ]
-    },
-    {
-        "key": "Important",
-        "color": "#7aa9dd", //lightblue
-        "values": [
-            {   "label": "New Voter Registration System", "value": 33.9 },
-            {   "label": "IEC Reform", "value": 24.8 },
-            {   "label": "New Electoral System", "value": 25.5 }
-        ]
-    },
-    {
-        "key": "Not Very Important",
-        "color": "#bc8f8f", //light red
-        "values": [
-            {   "label": "New Voter Registration System", "value": 4.0 },
-            {   "label": "IEC Reform", "value": 3.2 },
-            {   "label": "New Electoral System", "value": 4.5 }
-        ]
-    },
-    {
-        "key": "Not Important at All",
-        "color": "#800000", //red
-        "values": [
-            {   "label": "New Voter Registration System", "value": 1.5 },
-            {   "label": "IEC Reform", "value": 0.7 },
-            {   "label": "New Electoral System", "value": 1.3 }
-        ]
-    }
-]
-    
-nv.addGraph(function() {
-  var chart = nv.models.multiBarChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value / 100 })
-      //.margin({left: 100})
-      /*.tooltipContent(function(key, x, y, e, graph) {
-        return '<h5 style="text-align:center; padding:0px; color:#000; font-weight: 700">' + key + " (" + x + ")</h5><h4 style='text-align: center; color: #000; font-weight: 700;'>" + y + '</h5>'
-    });*/
+ 
 
-      
-        //.showValues(false)
-        .tooltips(true)
-        //.barColor(d3.scale.category20().range())
-        //.stacked(true)
-        //.showControls(false);
+d3.csv("data/COUNTER.csv", function(error, data){
+        console.log(data)
+        // create an empty object that nv is expecting
+        var exampleData = [
+        {
+            key: "ballot detected",
+            values: []
+        }
+    ];
 
-  chart.yAxis 
-    .tickFormat(d3.format('.1%'));
-  //chart.xAxis
-    //.tickFormat(d3.format('d'));
+        // populate the empty object with your data
+    data.forEach(function (d){
+        //d.value = +d.value
+        exampleData[0].values.push(d)
+    })       
 
-  d3.select('#chart1')
-      .datum(data)
-      .transition().duration(1200)
-      .call(chart);
+    nv.addGraph(function() {
+        
+        var chart = nv.models.discreteBarChart()
+            .x(function (d) { console.log(d); return d.label })
+            .y(function (d) { return d.value / 2 })
+            .staggerLabels(true)
+            .tooltips(true)
+            .showValues(true)
 
-  nv.utils.windowResize(chart.update);
+    chart.xAxis
+        .margin({bottom: 50})
+        .tickValues([1428417291000,1428417303000,1428417331000])
+        .tickFormat(function(d) {
+            return d3.time.format('%X')(new Date(d))
+          });
 
-  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+    //chart.yAxis
+      //  .tickFormat(d3.format('g'));
 
-  return chart;
+        d3.select('#chart1')
+                .datum(exampleData)
+                .attr("id", function (d) { console.log(d); })
+            .transition().duration(500)
+                .call(chart);
+ 
+        nv.utils.windowResize(chart.update);
+        return chart;
+    });
 });
 
-d3.csv("data/COUNTER.csv", function(error, data) { 
-var data = [
-    {
-    key: "Ballot Detected",
-    values: []
-    }
-];
+d3.csv("data/COUNTER.csv", function(error, data){
 
-data.forEach(function (d) {
-    //d.value = +d.value
-    d.date = +d.date;
-    d.val = +d.val;
-})
+var exampleData = [
+        {
+            key: "ballot detected",
+            values: []
+        }
+    ];
 
- nv.addGraph(function() {
+        // populate the empty object with your data
+    data.forEach(function (d){
+        //d.value = +d.value
+        exampleData[0].values.push(d)
+    })       
+
+  nv.addGraph(function() {
     var chart = nv.models.lineChart()
-                  .x(function(d) { return d[0]})
-                  .y(function(d) { return d[1] }) //adjusting, 100% is 1.00, not 100 as it is in the data
+                  .x(function(d) { return d.label })
+                  .y(function(d) { return d.value }) //adjusting, 100% is 1.00, not 100 as it is in the data
                   //.color(d3.scale.category10().range())
                   
                   //.duration(1200)
                   //.width(width)
-                  .useInteractiveGuideline(true);
+                  //.useInteractiveGuideline(true);
              
 
      chart.xAxis
         .margin({bottom: 50})
-        .tickValues([1428417291,1428417331])
+        .tickValues([1428417291000,1428417303000,1428417331000])
         .tickFormat(function(d) {
-            return d3.time.format('%c')(new Date(d))
+            return d3.time.format('%X')(new Date(d))
           });
 
     chart.yAxis
-        .tickFormat(d3.format('.1'));
+        .tickFormat(d3.format('X'));
 
     d3.select('#chart2')
-        .datum(data)
-        //.transition().duration(1200)
+        .datum(exampleData)
+        .transition().duration(1200)
         .call(chart);
 
     nv.utils.windowResize(chart.update);
 
     return chart;
   });
-});
+ });
+
 
 </script>
 
