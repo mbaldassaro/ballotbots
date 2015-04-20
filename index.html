@@ -9,10 +9,10 @@
     
     <!--<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">-->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">   
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
-    <link href="../node_modules/nvd3/nv.d3.min.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/nvd3/nv.d3.min.css" rel="stylesheet" type="text/css">
     <style>
       
         svg {
@@ -78,14 +78,14 @@
   </div>      
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-<script src="../node_modules/nvd3/nv.d3.js"></script>
-<script src="../node_modules/nvd3/src/interactiveLayer.js"></script>
-<script src="../node_modules/nvd3/src/utils.js"></script>
-<script src="../node_modules/nvd3/src/tooltip.js"></script>
-<script src="../node_modules/nvd3/src/models/multiBarHorizontal.js"></script>
-<script src="../node_modules/nvd3/src/models/multiBarHorizontalChart.js"></script>
-<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="node_modules/nvd3/nv.d3.js"></script>
+<script src="node_modules/nvd3/src/interactiveLayer.js"></script>
+<script src="node_modules/nvd3/src/utils.js"></script>
+<script src="node_modules/nvd3/src/tooltip.js"></script>
+<script src="node_modules/nvd3/src/models/multiBarHorizontal.js"></script>
+<script src="node_modules/nvd3/src/models/multiBarHorizontalChart.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script> 
 <script>
  
  
@@ -110,7 +110,7 @@ d3.csv("data/COUNTER.csv", function(error, data){
         
         var chart = nv.models.discreteBarChart()
             .x(function (d) { console.log(d); return d.label })
-            .y(function (d) { return d.value / 2 })
+            .y(function (d) { return d.value })
             .staggerLabels(true)
             .tooltips(true)
             .showValues(true)
