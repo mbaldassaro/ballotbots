@@ -48,7 +48,7 @@ d3.csv("data/COUNTER.csv", function(error, data){
     });
 });
 
-d3.csv("COUNTER.csv", function(error, data){
+d3.csv("https://github.com/mbaldassaro/ballotbots/blob/gh-pages/data/COUNTER.CSV", function(error, data){
 
 var exampleData = [
         {
