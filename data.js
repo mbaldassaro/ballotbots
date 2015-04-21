@@ -1,4 +1,4 @@
-d3.csv("data/COUNTER.csv", function(error, csv){
+d3.csv("data/counter.csv", function(error, csv){
         
         console.log(csv)
         // create an empty object that nv is expecting
@@ -48,7 +48,7 @@ d3.csv("data/COUNTER.csv", function(error, csv){
     });
 });
 
-d3.csv("COUNTER.csv", function(error, csv){
+d3.csv("counter.csv", function(error, csv){
 
 var exampleData = [
         {
@@ -59,7 +59,6 @@ var exampleData = [
 
         // populate the empty object with your data
     csv.forEach(function (d){
-        //d.value = +d.value
         exampleData[0].values.push(d)
     })  
 
