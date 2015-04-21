@@ -102,44 +102,53 @@ var exampleData = [
   });
  });
 
-var provisional = [
+var results = [
     {
-        "key": "Baldassaro (20)",
+        "key": "Baldassaro",
         "color": "#005288", //red
         "values": [
-            {   "label": "Baldassaro",
+            {   "label": "Provisional Results",
                 "value": 20
+            },
+            {   "label": "Official Results",
+                "value": 0
             }
             ]
     },
     {
-        "key": "Coffee Maker (5)",
+        "key": "Coffee Maker",
         "color": "#800000",
         "values": [
-            {   
-                "label": "Coffee Maker",
+            {   "label": "Provisional Results",
                 "value": 5
-            }    
+            },
+            {   "label": "Official Results",
+                "value": 0
+            }
             ]
     },
     {
-        "key": "Other (5)",
+        "key": "Other",
         "color": "green",
         "values": [
-            {   
-                "label": "Other",
+            {   "label": "Provisional Results",
                 "value": 5
-            }    
+            },
+            {   "label": "Official Results",
+                "value": 0
+            }
             ]
     },
     {
-        "key": "Invalid (5)",
+        "key": "Invalid",
         "color": "gray",
         "values": [
-            {   
-                "label": "Invalid",
+            {   "label": "Provisional Results",
                 "value": 5
-            }    
+            },
+            {   "label": "Official Results",
+                "value": 0
+            }
             ]
     }
     ]
@@ -162,7 +171,7 @@ var provisional = [
         //.margin({left: 250})
 
         d3.select('#chart3')
-                .datum(provisional)
+                .datum(results)
                 .attr("id", function (d) { console.log(d); })
             .transition().duration(500)
                 .call(chart);
@@ -171,74 +180,3 @@ var provisional = [
         return chart;
     });
 
-
-
-
-var official = [
-    {
-        "key": "Baldassaro",
-        "color": "#005288", //red
-        "values": [
-            {   "label": "Baldassaro",
-                "value": 20
-            }
-            ]
-    },
-    {
-        "key": "Coffee Maker",
-        "color": "#800000",
-        "values": [
-            {   
-                "label": "Coffee Maker",
-                "value": 0
-            }    
-            ]
-    },
-    {
-        "key": "Other",
-        "color": "green",
-        "values": [
-            {   
-                "label": "Other",
-                "value": 0
-            }    
-            ]
-    },
-    {
-        "key": "Invalid",
-        "color": "gray",
-        "values": [
-            {   
-                "label": "Invalid",
-                "value": 15
-            }    
-            ]
-    }
-    ]
-
-
-    nv.addGraph(function() {
-        var chart = nv.models.multiBarChart()
-            .x(function (d) { console.log(d); return d.label })
-            .y(function (d) { return d.value })
-            .color(["#005288", "#800000", "green", "gray"]) 
-            //.staggerLabels(true)
-            .tooltips(true)
-            //.showValues(true)
-
-    chart.xAxis
-        .margin({bottom: 50})
-
-    chart.yAxis
-        .tickFormat(d3.format('f'));
-        //.margin({left: 250})
-
-        d3.select('#chart4')
-                .datum(official)
-                .attr("id", function (d) { console.log(d); })
-            .transition().duration(500)
-                .call(chart);
- 
-        nv.utils.windowResize(chart.update);
-        return chart;
-    });
