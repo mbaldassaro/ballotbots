@@ -1,4 +1,4 @@
-d3.csv("data/motion.csv", function(error, csv){
+d3.csv("data/counter.csv", function(error, csv){
 
 var exampleData = [
         {
