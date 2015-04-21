@@ -1,6 +1,6 @@
 d3.csv("data/COUNTER.csv", function(error, data){
         
-        console.log(exampleData)
+        console.log(data)
         // create an empty object that nv is expecting
         var exampleData = [
         {
@@ -48,7 +48,7 @@ d3.csv("data/COUNTER.csv", function(error, data){
     });
 });
 
-d3.csv("https://github.com/mbaldassaro/ballotbots/blob/gh-pages/data/COUNTER.CSV", function(error, data){
+d3.csv("COUNTER.csv", function(error, data){
 
 var exampleData = [
         {
