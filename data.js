@@ -1,6 +1,6 @@
-d3.csv("data/COUNTER.csv", function(error, data){
+d3.csv("data/COUNTER.csv", function(error, csv){
         
-        console.log(data)
+        console.log(csv)
         // create an empty object that nv is expecting
         var exampleData = [
         {
@@ -10,12 +10,12 @@ d3.csv("data/COUNTER.csv", function(error, data){
     ];
 
         // populate the empty object with your data
-    data.forEach(function (d){
+    csv.forEach(function (d){
         //d.value = +d.value
         exampleData[0].values.push(d)    
     })       
 
-    data.forEach(function (d){ 
+    csv.forEach(function (d){ 
         d.label = +d.label * 1000
     })
 
@@ -48,7 +48,7 @@ d3.csv("data/COUNTER.csv", function(error, data){
     });
 });
 
-d3.csv("COUNTER.csv", function(error, data){
+d3.csv("COUNTER.csv", function(error, csv){
 
 var exampleData = [
         {
@@ -58,13 +58,13 @@ var exampleData = [
     ];
 
         // populate the empty object with your data
-    data.forEach(function (d){
+    csv.forEach(function (d){
         //d.value = +d.value
         exampleData[0].values.push(d)
     })  
 
 
-    data.forEach(function (d){ 
+    csv.forEach(function (d){ 
         d.label = +d.label * 1000
     })
 
