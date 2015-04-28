@@ -1,5 +1,5 @@
-d3.csv("data/motion.csv", function(error, csv){
-    //console.log(csv);
+d3.json("data/motion.json", function(error, json){
+    //console.log(json);
 
 var exampleData = [
         {
@@ -9,12 +9,12 @@ var exampleData = [
     ];
 
         // populate the empty object with your data
-    csv.forEach(function (d){
+    json.forEach(function (d){
         exampleData[0].values.push(d)
     })  
 
 
-    csv.forEach(function (d){ 
+    json.forEach(function (d){ 
         d.label = +d.label * 1000
     })
 
@@ -47,7 +47,7 @@ var exampleData = [
   });
  });
 
-d3.csv("data/counter.csv", function(error, csv){
+d3.json("data/counter.json", function(error, json){
 
 var exampleData = [
         {
@@ -57,12 +57,12 @@ var exampleData = [
     ];
 
         // populate the empty object with your data
-    csv.forEach(function (d){
+    json.forEach(function (d){
         exampleData[0].values.push(d)
     })  
 
 
-    csv.forEach(function (d){ 
+    json.forEach(function (d){ 
         d.label = +d.label * 1000
     })
 
@@ -70,7 +70,7 @@ var exampleData = [
   nv.addGraph(function() {
     var chart = nv.models.lineChart()
                   .x(function(d) { return d.label })
-                  .y(function(d) { return d.value }) //adjusting, 100% is 1.00, not 100 as it is in the data
+                  .y(function(d) { return d.value })  //adjusting, 100% is 1.00, not 100 as it is in the data
                   .color(["#800000"])
                   
                   //.duration(1200)
@@ -80,7 +80,7 @@ var exampleData = [
 
      chart.xAxis
         .margin({bottom: 50})
-        .tickValues([1430215200000,1430220646000,1430226043000,1430233411000,1430236769000])
+        .tickValues([1430215200000,1430220646000,1430226043000,1430232076000,1430236769000])
         .tickFormat(function(d) {
             return d3.time.format('%X')(new Date(d))
           });

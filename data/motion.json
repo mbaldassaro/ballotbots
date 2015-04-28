@@ -1,0 +1,611 @@
+[
+  {
+    "value":1,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:00:20",
+    "label":1430215220
+  },
+  {
+    "value":2,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:00:35",
+    "label":1430215235
+  },
+  {
+    "value":3,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:00:50",
+    "label":1430215250
+  },
+  {
+    "value":4,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:01:31",
+    "label":1430215291
+  },
+  {
+    "value":5,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:02:49",
+    "label":1430215369
+  },
+  {
+    "value":6,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:03:40",
+    "label":1430215420
+  },
+  {
+    "value":7,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:06:01",
+    "label":1430215561
+  },
+  {
+    "value":8,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:06:25",
+    "label":1430215585
+  },
+  {
+    "value":9,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:06:44",
+    "label":1430215604
+  },
+  {
+    "value":10,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:07:38",
+    "label":1430215658
+  },
+  {
+    "value":11,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:08:41",
+    "label":1430215721
+  },
+  {
+    "value":12,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:09:45",
+    "label":1430215785
+  },
+  {
+    "value":13,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:10:04",
+    "label":1430215804
+  },
+  {
+    "value":14,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:11:09",
+    "label":1430215869
+  },
+  {
+    "value":15,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:12:01",
+    "label":1430215921
+  },
+  {
+    "value":16,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:13:21",
+    "label":1430216001
+  },
+  {
+    "value":17,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:13:58",
+    "label":1430216038
+  },
+  {
+    "value":18,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:31:27",
+    "label":1430217087
+  },
+  {
+    "value":19,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:32:04",
+    "label":1430217124
+  },
+  {
+    "value":20,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:51:27",
+    "label":1430218287
+  },
+  {
+    "value":21,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"10:52:15",
+    "label":1430218335
+  },
+  {
+    "value":22,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:19:51",
+    "label":1430219991
+  },
+  {
+    "value":23,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:20:18",
+    "label":1430220018
+  },
+  {
+    "value":24,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:21:01",
+    "label":1430220061
+  },
+  {
+    "value":25,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:21:40",
+    "label":1430220100
+  },
+  {
+    "value":26,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:22:15",
+    "label":1430220135
+  },
+  {
+    "value":27,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:23:26",
+    "label":1430220206
+  },
+  {
+    "value":28,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:23:42",
+    "label":1430220222
+  },
+  {
+    "value":29,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:23:55",
+    "label":1430220235
+  },
+  {
+    "value":30,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:24:44",
+    "label":1430220284
+  },
+  {
+    "value":31,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:25:57",
+    "label":1430220357
+  },
+  {
+    "value":32,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:27:07",
+    "label":1430220427
+  },
+  {
+    "value":33,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:29:47",
+    "label":1430220587
+  },
+  {
+    "value":34,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:30:31",
+    "label":1430220631
+  },
+  {
+    "value":35,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:31:29",
+    "label":1430220689
+  },
+  {
+    "value":36,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:32:29",
+    "label":1430220749
+  },
+  {
+    "value":37,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:32:52",
+    "label":1430220772
+  },
+  {
+    "value":38,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:33:20",
+    "label":1430220800
+  },
+  {
+    "value":39,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:33:54",
+    "label":1430220834
+  },
+  {
+    "value":40,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:44:21",
+    "label":1430221461
+  },
+  {
+    "value":41,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:44:53",
+    "label":1430221493
+  },
+  {
+    "value":42,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:45:33",
+    "label":1430221533
+  },
+  {
+    "value":43,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:51:53",
+    "label":1430221913
+  },
+  {
+    "value":44,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"11:52:19",
+    "label":1430221939
+  },
+  {
+    "value":45,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:30:16",
+    "label":1430224216
+  },
+  {
+    "value":46,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:30:42",
+    "label":1430224242
+  },
+  {
+    "value":47,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:30:53",
+    "label":1430224253
+  },
+  {
+    "value":48,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:31:02",
+    "label":1430224262
+  },
+  {
+    "value":49,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:55:58",
+    "label":1430225758
+  },
+  {
+    "value":50,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:56:27",
+    "label":1430225787
+  },
+  {
+    "value":51,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:56:38",
+    "label":1430225798
+  },
+  {
+    "value":52,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:59:05",
+    "label":1430225945
+  },
+  {
+    "value":53,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"12:59:51",
+    "label":1430225991
+  },
+  {
+    "value":54,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"13:00:21",
+    "label":1430226021
+  },
+  {
+    "value":55,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"14:40:32",
+    "label":1430232032
+  },
+  {
+    "value":56,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"14:40:54",
+    "label":1430232054
+  },
+  {
+    "value":57,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:00:48",
+    "label":1430233248
+  },
+  {
+    "value":58,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:03:09",
+    "label":1430233389
+  },
+  {
+    "value":59,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:07:20",
+    "label":1430233640
+  },
+  {
+    "value":60,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:07:59",
+    "label":1430233679
+  },
+  {
+    "value":61,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:08:51",
+    "label":1430233731
+  },
+  {
+    "value":62,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:09:35",
+    "label":1430233775
+  },
+  {
+    "value":63,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:12:33",
+    "label":1430233953
+  },
+  {
+    "value":64,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:20:27",
+    "label":1430234427
+  },
+  {
+    "value":65,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:21:09",
+    "label":1430234469
+  },
+  {
+    "value":66,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:21:34",
+    "label":1430234494
+  },
+  {
+    "value":67,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:22:42",
+    "label":1430234562
+  },
+  {
+    "value":68,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:28:45",
+    "label":1430234925
+  },
+  {
+    "value":69,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:29:19",
+    "label":1430234959
+  },
+  {
+    "value":70,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:34:52",
+    "label":1430235292
+  },
+  {
+    "value":71,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:35:41",
+    "label":1430235341
+  },
+  {
+    "value":72,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:37:17",
+    "label":1430235437
+  },
+  {
+    "value":73,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:38:19",
+    "label":1430235499
+  },
+  {
+    "value":74,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:38:29",
+    "label":1430235509
+  },
+  {
+    "value":75,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:38:48",
+    "label":1430235528
+  },
+  {
+    "value":76,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:40:55",
+    "label":1430235655
+  },
+  {
+    "value":77,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:42:13",
+    "label":1430235733
+  },
+  {
+    "value":78,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:44:05",
+    "label":1430235845
+  },
+  {
+    "value":79,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:45:27",
+    "label":1430235927
+  },
+  {
+    "value":80,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:48:00",
+    "label":1430236080
+  },
+  {
+    "value":81,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:49:12",
+    "label":1430236152
+  },
+  {
+    "value":82,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:49:35",
+    "label":1430236175
+  },
+  {
+    "value":83,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:49:44",
+    "label":1430236184
+  },
+  {
+    "value":84,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:56:19",
+    "label":1430236579
+  },
+  {
+    "value":85,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:57:10",
+    "label":1430236630
+  },
+  {
+    "value":86,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:58:43",
+    "label":1430236723
+  },
+  {
+    "value":87,
+    "reading":"motion detected",
+    "date":"4/28/15",
+    "time":"15:59:11",
+    "label":1430236751
+  }
+]

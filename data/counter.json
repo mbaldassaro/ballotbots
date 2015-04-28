@@ -1,0 +1,335 @@
+[
+  {
+    "label":1,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:00:00",
+    "value":1430215200,
+    "unit":"distance",
+    "cm":7
+  },
+  {
+    "label":2,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:07:58",
+    "value":1430215678,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":3,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:09:59",
+    "value":1430215799,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":4,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:10:00",
+    "value":1430215800,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":5,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:10:08",
+    "value":1430215808,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":6,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:12:18",
+    "value":1430215938,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":7,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:31:02",
+    "value":1430217062,
+    "unit":"distance",
+    "cm":6
+  },
+  {
+    "label":8,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:32:22",
+    "value":1430217142,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":9,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"10:52:32",
+    "value":1430218352,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":10,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:22:03",
+    "value":1430220123,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":11,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:22:36",
+    "value":1430220156,
+    "unit":"distance",
+    "cm":4
+  },
+  {
+    "label":12,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:24:17",
+    "value":1430220257,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":13,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:25:01",
+    "value":1430220301,
+    "unit":"distance",
+    "cm":4
+  },
+  {
+    "label":14,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:30:46",
+    "value":1430220646,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":15,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:33:14",
+    "value":1430220794,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":16,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:34:16",
+    "value":1430220856,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":17,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:44:48",
+    "value":1430221488,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":18,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:45:26",
+    "value":1430221526,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":19,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:45:52",
+    "value":1430221552,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":20,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"11:52:41",
+    "value":1430221961,
+    "unit":"distance",
+    "cm":8
+  },
+  {
+    "label":21,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"12:31:21",
+    "value":1430224281,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":22,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"12:57:52",
+    "value":1430225872,
+    "unit":"distance",
+    "cm":4
+  },
+  {
+    "label":23,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"12:58:58",
+    "value":1430225938,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":24,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"13:00:43",
+    "value":1430226043,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":25,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"14:41:16",
+    "value":1430232076,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":26,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:03:31",
+    "value":1430233411,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":27,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:08:19",
+    "value":1430233699,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":28,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:21:31",
+    "value":1430234491,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":29,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:21:59",
+    "value":1430234519,
+    "unit":"distance",
+    "cm":4
+  },
+  {
+    "label":30,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:22:57",
+    "value":1430234577,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":31,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:23:00",
+    "value":1430234580,
+    "unit":"distance",
+    "cm":3
+  },
+  {
+    "label":32,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:36:03",
+    "value":1430235363,
+    "unit":"distance",
+    "cm":2
+  },
+  {
+    "label":33,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:49:52",
+    "value":1430236192,
+    "unit":"distance",
+    "cm":4
+  },
+  {
+    "label":34,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:50:37",
+    "value":1430236237,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":35,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:51:59",
+    "value":1430236319,
+    "unit":"distance",
+    "cm":5
+  },
+  {
+    "label":36,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:52:59",
+    "value":1430236379,
+    "unit":"distance",
+    "cm":6
+  },
+  {
+    "label":37,
+    "reading":"Ballot Detected",
+    "date":"4/28/15",
+    "time":"15:57:24",
+    "value":1430236644,
+    "unit":"distance",
+    "cm":3
+  }
+]
