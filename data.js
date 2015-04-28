@@ -1,4 +1,5 @@
-d3.csv("data/counter.csv", function(error, csv){
+d3.csv("data/motion.csv", function(error, csv){
+    //console.log(csv);
 
 var exampleData = [
         {
@@ -23,21 +24,17 @@ var exampleData = [
                   .x(function(d) { return d.label })
                   .y(function(d) { return d.value }) //adjusting, 100% is 1.00, not 100 as it is in the data
                   .color(d3.scale.category10().range())
-                  
-                  //.duration(1200)
-                  //.width(width)
-                  //.useInteractiveGuideline(true);
              
 
      chart.xAxis
         .margin({bottom: 50})
-        .tickValues([1428417291000,1428417303000,1428417331000])
+        .tickValues([1430215220000,1430220631000,1430226021000,1430233248000,1430236751000])
         .tickFormat(function(d) {
             return d3.time.format('%X')(new Date(d))
           });
 
     chart.yAxis
-        .tickFormat(d3.format('X'));
+        .tickFormat(d3.format('f'));
 
     d3.select('#chart1')
         .datum(exampleData)
@@ -83,13 +80,13 @@ var exampleData = [
 
      chart.xAxis
         .margin({bottom: 50})
-        .tickValues([1428417291000,1428417303000,1428417331000])
+        .tickValues([1430215200000,1430220646000,1430226043000,1430233411000,1430236769000])
         .tickFormat(function(d) {
             return d3.time.format('%X')(new Date(d))
           });
 
     chart.yAxis
-        .tickFormat(d3.format('X'));
+        .tickFormat(d3.format('f'));
 
     d3.select('#chart2')
         .datum(exampleData)
@@ -107,11 +104,8 @@ var results = [
         "key": "Baldassaro",
         "color": "#005288", //red
         "values": [
-            {   "label": "Provisional Results",
-                "value": 20
-            },
             {   "label": "Official Results",
-                "value": 0
+                "value": 22
             }
             ]
     },
@@ -119,23 +113,8 @@ var results = [
         "key": "Coffee Maker",
         "color": "#800000",
         "values": [
-            {   "label": "Provisional Results",
-                "value": 5
-            },
             {   "label": "Official Results",
-                "value": 0
-            }
-            ]
-    },
-    {
-        "key": "Other",
-        "color": "green",
-        "values": [
-            {   "label": "Provisional Results",
-                "value": 5
-            },
-            {   "label": "Official Results",
-                "value": 0
+                "value": 16
             }
             ]
     },
@@ -143,11 +122,8 @@ var results = [
         "key": "Invalid",
         "color": "gray",
         "values": [
-            {   "label": "Provisional Results",
-                "value": 5
-            },
             {   "label": "Official Results",
-                "value": 0
+                "value": 10
             }
             ]
     }
@@ -158,7 +134,7 @@ var results = [
         var chart = nv.models.multiBarChart()
             .x(function (d) { console.log(d); return d.label })
             .y(function (d) { return d.value })
-            .color(["#005288", "#800000", "green", "gray"]) 
+            .color(["#005288", "#800000", "gray"]) 
             //.staggerLabels(true)
             .tooltips(true)
             //.showValues(true)
